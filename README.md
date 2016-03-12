@@ -4,7 +4,7 @@
 
 ## Main Header on Home Page Attribution
 
-*Attribution:*
+**Attribution:**  
   Photograph by [Rama](https://commons.wikimedia.org/wiki/User:Rama), Wikimedia Commons, Cc-by-sa-2.0-fr  
   Adapted By [Josiah Mory](http://kickinbahk.com)
 
