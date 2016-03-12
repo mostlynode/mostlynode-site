@@ -1,27 +1,27 @@
 # Jykell configuration
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 paginate: 5
 language: 'en-uk'
 
 # Website info
-name: 'Finding The Way Home'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+name: 'Mostly Node'
+description: "A podcast about Node...mostly."
 
 # Author's info
-author: 'Casper McFadden'
+author: 'Josiah Mory'
 # edit 'categories' in the front matter of every post to match this username
-nickname: casper
-bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
+nickname: kickinbahk
+bio: 'Developer in Southern California'
 location: 'Maine, USA'
-url: 'http://biomadeira.github.io/jasper/'
+url: 'http://kickinbahk.com'
 image: 'assets/images/casper.png'
 
-short_url: 'biomadeira.github.io/jasper/'
+short_url: 'mostlynode.github.io'
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-# baseurl: 
+baseurl: /
 
 # Permalinks
 permalink: /:title
