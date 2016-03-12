@@ -5,7 +5,7 @@
 ## Main Header on Home Page Attribution
 
 *Attribution:*
-  Photograph by [Rama](https://commons.wikimedia.org/wiki/User:Rama), Wikimedia Commons, Cc-by-sa-2.0-fr
+  Photograph by [Rama](https://commons.wikimedia.org/wiki/User:Rama), Wikimedia Commons, Cc-by-sa-2.0-fr  
   Adapted By [Josiah Mory](http://kickinbahk.com)
 
 ## Copyright & License For Jasper and Related Files
