@@ -6,7 +6,7 @@ language: 'en-uk'
 
 # Website info
 name: 'Mostly Node'
-description: "A podcast about Node...mostly."
+description: "require('mostly-node')"
 
 # Author's info
 author: 'Mostly Node'
@@ -54,13 +54,13 @@ exclude: [vendor]
 # or "master" otherwise
 safe: false
 lsi: false
-username: biomadeira
-repo: jasper
+username: mostlynode
+repo: mostlynode.github.io
 branch: master
-relative_source: ../jasper/
-destination: ../jasper-pages/
-production_url:  https://biomadeira.github.io/jasper/
-source_url:      https://github.com/biomadeira/jasper/
+relative_source: /
+destination: ./jasper-pages/
+production_url:  https://mostlynode.github.io/
+source_url:      https://github.com/mostlynode/mostlynode.github.io/
 
 exclude:
   - README.md
