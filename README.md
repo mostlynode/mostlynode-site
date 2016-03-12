@@ -1,6 +1,6 @@
 
 
-## Using Jekyll and the [Jasper](https://github.com/biomadeira/jasper) Theme
+## Using [Jekyll](https://jekyllrb.com/) and the [Jasper](https://github.com/biomadeira/jasper) Theme
 
 ## Main Header on Home Page Attribution
 
