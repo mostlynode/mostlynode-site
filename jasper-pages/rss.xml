@@ -7,7 +7,7 @@
   <channel>
     <title>Mostly Node</title>
     <link>http://kickinbahk.com</link>
-    <description>A podcast about Node...mostly.</description>
+    <description>require('mostly-node')</description>
     <pubDate>Sat, 27 Sep 2014 03:18:00 -0700</pubDate>
     <item>
       <title>A Full and Comprehensive Style Test</title>

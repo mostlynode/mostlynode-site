@@ -6,7 +6,7 @@
       <title>mostlynode.github.io</title>
    
    <link>http://kickinbahk.com</link>
-   <description>A podcast about Node...mostly.</description>
+   <description>require('mostly-node')</description>
    <language>en-uk</language>
    <managingEditor> Mostly Node</managingEditor>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
