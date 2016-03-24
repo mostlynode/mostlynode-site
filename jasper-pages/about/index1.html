@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>About | Mostly Node</title>
+    <title>About</title>
     <meta name="description" content="Mostly Node - require('mostly-node')" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -56,7 +56,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="page-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -80,25 +80,45 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <header class="main-header "
-        style="background-image: url(/assets/images/enigma.png) ">
-    <nav class="main-nav overlay clearfix">
+        <!-- < default -->
+
+<!-- This is a page template. A page outputs content just like any other post, and has all the same -->
+    <!-- attributes by default, but you can also customise it to behave differently if you prefer.  -->
+
+<!-- Everything inside the #post tags pulls data from the page -->
+<!-- #post -->
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
         <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
         
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+            
         
     </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">About the Hosts</h1>
-            <h2 class="page-description">We are more than our Sultry Voices</h2>
-        </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
-<main>
-  This is some Main content. 
+
+<main class="content" role="main">
+    <article class="post">
+        <!-- Everything inside the #post tags pulls data from the post -->
+
+        <header class="post-header">
+            <h1 class="post-title">About</h1>
+        </header>
+
+        <section class="post-content">
+            <p>This is a demo blog for Ghost, it contains dummy content which allows you to click around and see what a Ghost blog running the default theme looks like.</p>
+
+<p>We use this for testing and for reference!</p>
+
+<p>If you’d like to set up your own blog, head on over to <a href="https://ghost.org">https://ghost.org</a> and sign up.</p>
+
+        </section>
+
+    </article>
+
 </main>
+<!-- /post -->
 
 
         <footer class="site-footer clearfix">

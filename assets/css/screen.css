@@ -866,12 +866,20 @@ body.nav-opened .nav {
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
-.page-title {
+.home-title {
     margin: 10px 0 30px 0;
     font-size: 7rem;
     letter-spacing: -1px;
     font-weight: 600;
     font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+.page-title {
+    margin: 10px 0 30px 0;
+    font-size: 7rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-family: "Merriweather", serif;
     color: #fff;
 }
 
