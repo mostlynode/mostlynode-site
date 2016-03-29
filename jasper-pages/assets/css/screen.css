@@ -1743,6 +1743,19 @@ body:not(.post-template) .post-title {
 
 }
 
+/* ==========================================================================
+    About Page
+   ========================================================================== */
+.hosts-name-div {
+    display: block;
+    height: 100px;
+}
+.host-names-right {
+    padding-top: 52px
+}
+.host-names-left {
+    padding-top: 72px;
+}
 
 /* ==========================================================================
    12. Media Queries - Smaller than 500px
