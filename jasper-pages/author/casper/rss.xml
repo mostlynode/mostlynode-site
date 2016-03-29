@@ -12,6 +12,32 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>First Episode!</title>
+	  <link>//episode-001</link>
+	  <author>Mostly Node</author>
+	  <pubDate>2016-04-06T00:00:00-07:00</pubDate>
+	  <guid>//episode-001</guid>
+	  <description><![CDATA[
+	     <p>Intro - Each give reasons for starting a podcast on Node</p>
+
+<p>Main talking Points: 
+http://nodeweekly.com/
+https://github.com/feross/standard
+Switching text editors for a time (From Emacs to Sublime)
+(Add any of your topics and we can adjust accordingly)</p>
+
+<p>Any Social Media You want to Promote: 
+Josiah
+@kickinbahk
+kickinbahk.com
+Jason
+@jason_small
+jasonsmall.io </p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>A Full and Comprehensive Style Test</title>
 	  <link>//a-full-and-comprehensive-style-test</link>
 	  <author>Mostly Node</author>

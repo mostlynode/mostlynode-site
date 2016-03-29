@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>About | Mostly Node</title>
+    <title>First Episode!</title>
     <meta name="description" content="Mostly Node - require('mostly-node')" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -61,7 +61,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="post-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -70,7 +70,7 @@
     </a>
     <ul>
         <li class="nav-home " role="presentation"><a href="/">Home</a></li>
-        <li class="nav-about  nav-current" role="presentation"><a href="/about">About</a></li>
+        <li class="nav-about " role="presentation"><a href="/about">About</a></li>
         
         <!-- <li class="nav-fables " role="presentation"><a href="/tag/fables">Fables</a></li> -->
         <!-- <li class="nav-speeches " role="presentation"><a href="/tag/speeches">Speeches</a></li> -->
@@ -85,57 +85,141 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <header class="main-header no-cover">
-    <nav class="main-nav overlay clearfix">
+        <!-- < default -->
+
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<header class="main-header post-head " style="background-image: url(/assets/images/cover5.jpg) ">
+    <nav class="main-nav  overlay  clearfix">
         <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
         
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
     </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">About the Hosts</h1>
-            <h2 class="page-description">More than Sultry Voices</h2>
-        </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
-<main>
-  <container>
-    <div class="row">
-      <div class="col-md-8 col-md-offset-3">
-        <div>
-          <div class="hosts-name">
-            <img src="/assets/images/casper.png">
-            <h2 class="pull-right host-names-right">Josiah Mory</h2>
-          </div>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dictum leo, posuere elementum felis. Fusce quis nibh eget nunc euismod auctor. Integer elementum finibus tellus vitae ornare. Aenean placerat turpis vel diam malesuada, sed finibus arcu ultrices. Integer semper felis diam, et auctor ligula rutrum id. Sed pretium eros nec egestas pulvinar. Vivamus in elementum ligula, in tempor nunc. Vestibulum pharetra tempor viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec iaculis fringilla dictum. Donec pulvinar convallis dui, et gravida dolor malesuada iaculis. Fusce sollicitudin metus congue, cursus lectus in, eleifend risus.
 
-            Proin eu ullamcorper magna. Donec id consectetur massa, sit amet tempus orci. Aenean tristique nibh eget enim dictum, ac lacinia urna tincidunt. Praesent leo magna, ullamcorper vitae rutrum a, egestas vitae eros. Pellentesque vitae risus eu dui volutpat venenatis ut a nulla. In risus ligula, mattis ut diam eget, iaculis euismod est. Sed vestibulum aliquam odio.
+<main class="content" role="main">
 
-            Suspendisse vitae tincidunt sem. Mauris semper neque orci, eu ultricies nunc gravida ac. Proin arcu turpis, facilisis ut venenatis vel, pretium at orci. Nullam sagittis vestibulum magna, nec consequat elit consequat ac. Duis egestas orci et vestibulum ullamcorper. Etiam vel libero id eros finibus ullamcorper. In imperdiet pulvinar cursus. Suspendisse quis aliquet ligula, mattis auctor nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc libero orci, lacinia at sodales ac, tincidunt id lectus. Curabitur maximus vitae risus id luctus.
-          </p>
-        </div>
-        <div>
-          <div class="hosts-name-div">
-            <img class="pull-right" src="/assets/images/casper.png">
-            <h2 class="host-names-left">Jason Small</h2>
-          </div>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dictum leo, posuere elementum felis. Fusce quis nibh eget nunc euismod auctor. Integer elementum finibus tellus vitae ornare. Aenean placerat turpis vel diam malesuada, sed finibus arcu ultrices. Integer semper felis diam, et auctor ligula rutrum id. Sed pretium eros nec egestas pulvinar. Vivamus in elementum ligula, in tempor nunc. Vestibulum pharetra tempor viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec iaculis fringilla dictum. Donec pulvinar convallis dui, et gravida dolor malesuada iaculis. Fusce sollicitudin metus congue, cursus lectus in, eleifend risus.
+    <article class="post tag-speeches">
 
-            Proin eu ullamcorper magna. Donec id consectetur massa, sit amet tempus orci. Aenean tristique nibh eget enim dictum, ac lacinia urna tincidunt. Praesent leo magna, ullamcorper vitae rutrum a, egestas vitae eros. Pellentesque vitae risus eu dui volutpat venenatis ut a nulla. In risus ligula, mattis ut diam eget, iaculis euismod est. Sed vestibulum aliquam odio.
+        <header class="post-header">
+            <h1 class="post-title">First Episode!</h1>
+            <section class="post-meta">
+            <!-- <a href='/'>Mostly Node</a> -->
+            <time class="post-date" datetime="2016-04-06">06 Apr 2016</time>
+                <!-- [[tags prefix=" on "]] -->
+                 
+                on 
+                
+                    
+                       <a href='/tag/Standard'>Standard</a>,
+                       
+                
+                    
+                       <a href='/tag/NodeWeekly'>Nodeweekly</a>,
+                       
+                
+                    
+                       <a href='/tag/Sublime'>Sublime</a>
+                       
+                
+                
+            </section>
+        </header>
 
-            Suspendisse vitae tincidunt sem. Mauris semper neque orci, eu ultricies nunc gravida ac. Proin arcu turpis, facilisis ut venenatis vel, pretium at orci. Nullam sagittis vestibulum magna, nec consequat elit consequat ac. Duis egestas orci et vestibulum ullamcorper. Etiam vel libero id eros finibus ullamcorper. In imperdiet pulvinar cursus. Suspendisse quis aliquet ligula, mattis auctor nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc libero orci, lacinia at sodales ac, tincidunt id lectus. Curabitur maximus vitae risus id luctus.
-          </p>
-        </div>
-      </div>
-    </div>  
-  </container>
+        <section class="post-content">
+            
+            <p>Intro - Each give reasons for starting a podcast on Node</p>
+
+<p>Main talking Points: 
+http://nodeweekly.com/
+https://github.com/feross/standard
+Switching text editors for a time (From Emacs to Sublime)
+(Add any of your topics and we can adjust accordingly)</p>
+
+<p>Any Social Media You want to Promote: 
+Josiah
+@kickinbahk
+kickinbahk.com
+Jason
+@jason_small
+jasonsmall.io </p>
+
+
+        </section>
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+
+            
+            <figure class="author-image">
+                <a class="img" href="/author/kickinbahk" style="background-image: url(/assets/images/casper.png)"><span class="hidden">'s Picture</span></a>
+            </figure>
+            
+
+            <section class="author">
+                <h4><a href="/author/kickinbahk">Mostly Node</a></h4>
+                
+                
+                    <p>Read <a href="/author/kickinbahk">more posts</a> by this author.</p>
+                
+                <div class="author-meta">
+                     
+                    <span class="author-link icon-link"><a href="http://kickinbahk.com"> mostlynode.github.io</a></span> 
+                </div>
+            </section>
+
+            <!-- /author  -->
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=First Episode!&amp;url=http://kickinbahk.comepisode-001"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://kickinbahk.comepisode-001"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://kickinbahk.comepisode-001"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+            
+            <!-- Add Disqus Comments -->
+            
+            
+        </footer>
+
+    </article>
+
 </main>
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+        <a class="read-next-story prev no-cover" href="/a-full-and-comprehensive-style-test">
+            <section class="post">
+                <h2>A Full and Comprehensive Style Test</h2>
+                <p>This is just an ipsis verbis copy of the first example running on the Ghost...</p>
+            </section>
+        </a>
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
 
 
         <footer class="site-footer clearfix">

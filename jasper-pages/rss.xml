@@ -8,7 +8,16 @@
     <title>Mostly Node</title>
     <link>http://kickinbahk.com</link>
     <description>require('mostly-node')</description>
-    <pubDate>Sat, 27 Sep 2014 03:18:00 -0700</pubDate>
+    <pubDate>Wed, 06 Apr 2016 00:00:00 -0700</pubDate>
+    <item>
+      <title>First Episode!</title>
+      <link>http://kickinbahk.com/episode-001</link>
+      <description>Intro - Each give reasons for starting a podcast on Node
+
+</description>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 -0700</pubDate>
+      <dc:date>2016-04-06T00:00:00-07:00</dc:date>
+    </item>
     <item>
       <title>A Full and Comprehensive Style Test</title>
       <link>http://kickinbahk.com/a-full-and-comprehensive-style-test</link>
@@ -269,6 +278,6 @@ The 16th president of the USA until he was assassinated in April of 1963. He led
       <pubDate>Thu, 19 Nov 1863 02:18:00 -0800</pubDate>
       <dc:date>1863-11-19T02:18:00-08:00</dc:date>
     </item>
-    <dc:date>2014-09-27T03:18:00-07:00</dc:date>
+    <dc:date>2016-04-06T00:00:00-07:00</dc:date>
   </channel>
 </rss>
