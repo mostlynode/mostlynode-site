@@ -12,13 +12,14 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
-	  <title>First Episode!</title>
+	  <title>First Episode! - Episode 001</title>
 	  <link>//episode-001</link>
 	  <author>Mostly Node</author>
 	  <pubDate>2016-04-06T00:00:00-07:00</pubDate>
 	  <guid>//episode-001</guid>
 	  <description><![CDATA[
-	     <p>Intro - Each give reasons for starting a podcast on Node</p>
+	     <h1 id="intro">Intro</h1>
+<p>Our reasons for starting a podcast on Node</p>
 
 <p>Main talking Points: 
 http://nodeweekly.com/
