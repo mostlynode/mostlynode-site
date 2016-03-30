@@ -777,9 +777,10 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
-    padding: 1px 0 5px 0;
+    height: 125px;
+    padding: 1px 0 5px 10px;
     width: auto;
+    border-radius: 20%;
 }
 
 .menu-button {
