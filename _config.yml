@@ -14,7 +14,7 @@ author: 'Mostly Node'
 nickname: Mostly Node
 # bio: 'Developer in Southern California'
 # location: ''
-# url: 'http://kickinbahk.com'
+url: 'http://mostlynode.com'
 image: 'assets/images/mn-icon-100x100.png'
 
 # short_url: 'mostlynode.github.io'
@@ -26,7 +26,7 @@ baseurl: /
 # Permalinks
 permalink: /:title
 # permalink: /author/:username
-# permalink: /tag/:tag
+permalink: /tag/:tag
 
 
 # gems and other configs
