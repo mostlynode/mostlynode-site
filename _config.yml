@@ -14,10 +14,10 @@ author: 'Mostly Node'
 nickname: Mostly Node
 # bio: 'Developer in Southern California'
 # location: ''
-url: 'http://kickinbahk.com'
+# url: 'http://kickinbahk.com'
 image: 'assets/images/mn-icon-100x100.png'
 
-short_url: 'mostlynode.github.io'
+# short_url: 'mostlynode.github.io'
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
