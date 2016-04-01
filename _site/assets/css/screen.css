@@ -253,6 +253,8 @@ a:hover {
 }
 
 p, ul, ol, dl {
+    color: #3D1F1F;
+    font-size: 18px;
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
@@ -310,6 +312,7 @@ blockquote {
     margin: 1.75em 0 1.75em -2.2em;
     padding: 0 0 0 1.75em;
     border-left: #4A4A4A 0.4em solid;
+    margin-left: 0;
 }
 
 blockquote p {
@@ -776,9 +779,10 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
-    padding: 1px 0 5px 0;
+    height: 125px;
+    padding: 1px 0 5px 10px;
     width: auto;
+    border-radius: 20%;
 }
 
 .menu-button {
@@ -865,12 +869,20 @@ body.nav-opened .nav {
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
-.page-title {
-    margin: 10px 0 10px 0;
-    font-size: 5rem;
+.home-title {
+    margin: 10px 0 30px 0;
+    font-size: 7rem;
     letter-spacing: -1px;
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+.page-title {
+    margin: 10px 0 30px 0;
+    font-size: 7rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
     color: #fff;
 }
 
@@ -1606,11 +1618,7 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
-
-    blockquote {
-        margin-left: 0;
-    }
-
+   
     .main-header {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -1738,6 +1746,19 @@ body:not(.post-template) .post-title {
 
 }
 
+/* ==========================================================================
+    About Page
+   ========================================================================== */
+.hosts-name-div {
+    display: block;
+    height: 100px;
+}
+.host-names-right {
+    padding-top: 52px
+}
+.host-names-left {
+    padding-top: 72px;
+}
 
 /* ==========================================================================
    12. Media Queries - Smaller than 500px

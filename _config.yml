@@ -58,7 +58,7 @@ username: mostlynode
 repo: mostlynode.github.io
 branch: master
 relative_source: /
-destination: ./jasper-pages/
+destination: ./_site
 production_url:  https://mostlynode.github.io/
 source_url:      https://github.com/mostlynode/mostlynode.github.io/
 
