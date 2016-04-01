@@ -784,6 +784,9 @@ body.nav-opened .nav {
     width: auto;
     border-radius: 20%;
 }
+.main-logo {
+    margin: 0 auto;
+}
 
 .menu-button {
     -webkit-box-sizing: border-box;
@@ -1759,7 +1762,9 @@ body:not(.post-template) .post-title {
 .host-names-left {
     padding-top: 72px;
 }
-
+.host-image {
+    border-radius: 50%;
+}
 /* ==========================================================================
    12. Media Queries - Smaller than 500px
    ========================================================================== */
