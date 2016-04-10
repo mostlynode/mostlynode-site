@@ -25,7 +25,7 @@ baseurl: /
 
 # Permalinks
 permalink: /:title
-# permalink: /author/:username
+# permalink: /page/:username
 # permalink: /tag/:tag
 
 
@@ -58,7 +58,8 @@ username: mostlynode
 repo: mostlynode.github.io
 branch: master
 relative_source: /
-destination: ../mostlynode-gen
+# destination: ../mostlynode-gen/mostlynode-beta
+destination: ../mostlynode-gen/mostlynode-prod
 production_url:  https://mostlynode.github.io/
 source_url:      https://github.com/mostlynode/mostlynode.github.io/
 
